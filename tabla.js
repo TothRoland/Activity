@@ -284,7 +284,7 @@ function pluszzold(){
     } else if (piros == zold){
         $("#" + zold).attr("src","mezopiroszold.png");
     } else if (sarga == zold){
-        $("#" + zold).attr("src","mezosargazoldpng");
+        $("#" + zold).attr("src","mezosargazold.png");
     } else {
         $("#" + zold).attr("src","mezozold.png");
     }
@@ -324,7 +324,7 @@ function minuszzold(){
     } else if (piros == zold){
         $("#" + zold).attr("src","mezopiroszold.png");
     } else if (sarga == zold){
-        $("#" + zold).attr("src","mezosargazoldpng");
+        $("#" + zold).attr("src","mezosargazold.png");
     } else {
         $("#" + zold).attr("src","mezozold.png");
     }
