@@ -249,3 +249,84 @@ function minuszsarga(){
 }
 //#endregion
 
+//#region zold
+function pluszzold(){
+    if (kek == zold && piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokekpirossarga.png");
+    } else if (kek == zold && piros == zold){
+        $("#" + zold).attr("src","mezokekpiros.png");
+    } else if (kek == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokeksarga.png");
+    } else if (piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezopirossarga.png");
+    } else if (kek == zold){
+        $("#" + zold).attr("src","mezokek.png");
+    } else if (piros == zold){
+        $("#" + zold).attr("src","mezopiros.png");
+    } else if (sarga == zold){
+        $("#" + zold).attr("src","mezosarga.png");
+    } else {
+        $("#" + zold).attr("src","mezo.png");
+    }
+
+    zold++;
+
+    if (kek == zold && piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokekpirossargazold.png");
+    } else if (kek == zold && piros == zold){
+        $("#" + zold).attr("src","mezokekpiroszold.png");
+    } else if (kek == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokeksargazold.png");
+    } else if (piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezopirossargazold.png");
+    } else if (kek == zold){
+        $("#" + zold).attr("src","mezokekzold.png");
+    } else if (piros == zold){
+        $("#" + zold).attr("src","mezopiroszold.png");
+    } else if (sarga == zold){
+        $("#" + zold).attr("src","mezosargazoldpng");
+    } else {
+        $("#" + zold).attr("src","mezozold.png");
+    }
+}
+
+function minuszzold(){
+    if (kek == zold && piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokekpirossarga.png");
+    } else if (kek == zold && piros == zold){
+        $("#" + zold).attr("src","mezokekpiros.png");
+    } else if (kek == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokeksarga.png");
+    } else if (piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezopirossarga.png");
+    } else if (kek == zold){
+        $("#" + zold).attr("src","mezokek.png");
+    } else if (piros == zold){
+        $("#" + zold).attr("src","mezopiros.png");
+    } else if (sarga == zold){
+        $("#" + zold).attr("src","mezosarga.png");
+    } else {
+        $("#" + zold).attr("src","mezo.png");
+    }
+
+    zold--;
+
+    if (kek == zold && piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokekpirossargazold.png");
+    } else if (kek == zold && piros == zold){
+        $("#" + zold).attr("src","mezokekpiroszold.png");
+    } else if (kek == zold && sarga == zold){
+        $("#" + zold).attr("src","mezokeksargazold.png");
+    } else if (piros == zold && sarga == zold){
+        $("#" + zold).attr("src","mezopirossargazold.png");
+    } else if (kek == zold){
+        $("#" + zold).attr("src","mezokekzold.png");
+    } else if (piros == zold){
+        $("#" + zold).attr("src","mezopiroszold.png");
+    } else if (sarga == zold){
+        $("#" + zold).attr("src","mezosargazoldpng");
+    } else {
+        $("#" + zold).attr("src","mezozold.png");
+    }
+}
+//#endregion
